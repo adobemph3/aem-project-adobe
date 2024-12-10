@@ -157,7 +157,7 @@ button {
 a:any-link {
   color: var(--link-color);
   text-decoration: none;
-  word-break: break-word;
+  /* word-break: break-word; */
 }
 
 a:hover {
@@ -174,10 +174,11 @@ button {
   margin: 12px 0;
   border: 2px solid transparent;
   border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  padding: 0.3em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
@@ -228,9 +229,9 @@ main img {
 }
 
 /* sections */
-main > .section {
+/* main > .section {
   margin: 40px 0;
-}
+} */
 
 main > .section > div {
   max-width: 1200px;
@@ -255,3 +256,50 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+
+/*** Custome CSS ***/
+/*** css FOR About Us *****/
+#our-contributors strong{
+  border-bottom: 2px solid var(--brandPrimary, #ffea00) !important;
+  content: "";
+  display: block;
+  padding-top: 8px;
+  width: 84px;
+
+}
+
+.carousel-slides{
+  height:300px;
+}
+
+main > .section {
+  margin: 0px 0;
+} 
+
+.button-container a:link{
+  background-color: #ffea00;
+  color: #444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button-container a:hover{
+  color:#ccc;
+  background-color: #424242;
+}
+
+
+.recent-articles h2::after {
+  border-bottom: 2px solid var(--brand-primary);
+  content: '';
+  display: block;
+  padding-top: 8px;
+  width: 84px;
+}
+
+#featured-article{
+  font-size: var(--heading-font-size-2);
+}
+
