@@ -23,11 +23,25 @@
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 24px;
+
+    /* gap: 24px; */
+    gap:0;
+    padding: 0 0 0 10px;
   }
 
   .columns > div > div {
     flex: 1;
     order: unset;
+    padding-left: 1em;
+
+    /* background-color: #e1e1e1; */
   }
+}
+
+.columns .block div{
+  margin: 20px 0 0 22px;
+}
+
+.columns .block .columns-2-cols{
+  padding:0 10px 0 15px;
 }

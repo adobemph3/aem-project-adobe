@@ -1,0 +1,27 @@
+.social-tabs-wrapper{
+    display: grid;
+        position: absolute;
+        right: 35px;
+        margin-top: -64px;  
+}
+
+.social-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-tabs ul li{
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    gap:18px;
+}
+
+
+
+
+
+
+
