@@ -43,15 +43,10 @@
     padding:5px 0;
     width:140px;
   }
+
   .aboutus-cards-card-body  ul li{
  margin-top: 10px;
  display: inline;
-  }
-
-
-  .aboutus-cards > ul > li img .icon{
-    aspect-ratio: 4 / 3; 
-    object-fit: cover;
   }
 
   .aboutus-cards-card-body  ul li .icon{
@@ -59,5 +54,12 @@
     cursor: pointer;
     padding: 3px 9px;
   }
+
+  .aboutus-cards > ul > li img .icon{
+    aspect-ratio: 4 / 3; 
+    object-fit: cover;
+  }
+
+
 
   

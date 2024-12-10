@@ -1,6 +1,5 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
   width: 100%;
   height: 75px;
   z-index: 2;
@@ -208,6 +207,7 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     display: inline-block;
     position: absolute;
+
     /* top: 0.5em; */
     top:0.6rem;
     right: 2px;
@@ -234,6 +234,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+
     /* padding:4px 18px; */
     padding: 4px 14px;
   }
@@ -266,17 +267,17 @@ header nav .nav-sections ul > li > ul > li {
     border-bottom: 8px solid var(--light-color);
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
-  }
-
   header nav .nav-sections ul>li:hover {
     background-color:#ffea00;
     cursor: pointer;
     box-shadow: 0 5px 10px 0 #ccc;  
   }
+  
+  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
+    padding: 8px 0;
+  }
 
- 
+
 
 }
 
