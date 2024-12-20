@@ -285,3 +285,10 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+
+@media (width <= 800px){
+  header nav{
+    gap:0 11px;
+  }
+}

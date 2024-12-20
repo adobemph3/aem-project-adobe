@@ -36,6 +36,16 @@
 
     /* background-color: #e1e1e1; */
   }
+
+  .footer-wrapper .columns > div > div {
+    flex: auto;
+    order: unset;
+    padding-left: 1em;
+
+    /* background-color: #e1e1e1; */
+  }
+
+  
 }
 
 .columns .block div{

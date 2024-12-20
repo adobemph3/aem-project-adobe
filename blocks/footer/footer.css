@@ -22,6 +22,7 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+
 }
 
 .footer-wrapper{
@@ -120,6 +121,18 @@ footer nav .nav-sections .default-content-wrapper > ul > li > ul::before {
   border-right: 8px solid transparent;
   border-bottom: 8px solid var(--light-color);
 }
+
+ @media (width <=800px){
+  .columns-wrapper ul > li{
+    display: flex;
+        margin-left: 99px;
+        line-height: 35px;
+        color: #ccc;
+  }
+  
+ }
+
+
 
 
 
