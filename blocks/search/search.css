@@ -159,3 +159,19 @@
     position: relative;
     left:35px;
    }
+
+
+  @media (width <= 800px) {
+    .search .search-box{
+      margin-top: 30px;
+    }
+
+    .search .search-box input{
+      width: 65%;
+    }
+    
+    #wknd{
+      font-size:35px;margin-bottom: 24px;
+    }
+    
+  }

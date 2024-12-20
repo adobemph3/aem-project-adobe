@@ -20,6 +20,12 @@
 }
 
 
+@media (width <=800px){
+    .social-tabs-wrapper{
+        display: contents;
+    }
+}
+
 
 
 
